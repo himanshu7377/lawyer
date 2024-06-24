@@ -1,5 +1,5 @@
 import React from 'react';
-import RecentStudies from './RecentStudies';
+import BackButton from './BackButton';
 import { FiArrowLeftCircle , FiPaperclip} from 'react-icons/fi';
 const Layout2 = () => {
  
@@ -7,10 +7,7 @@ const Layout2 = () => {
   return (
     <div className=" w-full ">
      <div className="flex justify-between w-full">
-          <FiArrowLeftCircle className=" mt-1 w-8 h-8 cursor-pointer" />
-          <button className="bg-blue-500  text-white font-bold py-2 px-12 rounded-full">
-            Back to Home
-          </button>
+        <BackButton />
         </div>
         <div className='mt-5 '>
 

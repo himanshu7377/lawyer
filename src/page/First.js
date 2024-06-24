@@ -4,7 +4,8 @@ import React from 'react'
 
 import Sidebar from '../components/Sidebar'
 import Layout1 from '../components/Layout1'
-import DragAndDropArea from '../components/MainBoard'
+import MainBoard from '../components/MainBoard'
+import DragAndDropArea from '../components/MainLayout1'
 const First = () => {
   return (
     <div className='flex space-x-4 '>
@@ -14,7 +15,7 @@ const First = () => {
 
       <Sidebar layout={Layout1} />
      </div>
-      <DragAndDropArea />
+     <MainBoard layout={DragAndDropArea} />
     </div>
   )
 }
