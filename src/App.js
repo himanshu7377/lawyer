@@ -1,13 +1,15 @@
 
 import Header from './components/Header'
 import './App.css';
-import Sidebar from './components/Sidebar'
-
+import First from './page/First';
+import Second from './page/Second';
 function App() {
   return (
-    <div className="bg-blue-200 space-y-8">
+    <div className="bg-blue-200  space-y-8 h-screen" >
       <Header />
-      <Sidebar />
+      {/* <First /> */}
+      <Second />
+      
     
     </div>
   );

@@ -5,7 +5,7 @@ import   {FiHome,FiMessageSquare ,FiSettings, FiBell, FiUser,FiSearch ,FiRss,FiA
 
 const Header = () => {
   return (
-    <header className="bg-gray-300 py-4 px-4 ">
+    <header className="bg-blue-100 py-4 px-4 ">
       <div className="container flex justify-between items-center mx-auto px-4">
         <div className="flex items-center ml-5">
           <span className="text-2xl font-bold text-black">Advocase</span>
@@ -48,9 +48,9 @@ const Header = () => {
         </nav>
 
         <div className="flex space-x-6">
-          <FiSettings className="w-6 h-6 text-white hover:text-gray-200 cursor-pointer" />
-          <FiBell className="w-6 h-6 text-white hover:text-gray-200 cursor-pointer" />
-          <FiUser className="w-6 h-6 text-white hover:text-gray-200 cursor-pointer" />
+          <FiSettings className="w-6 h-6 text-black  cursor-pointer" />
+          <FiBell className="w-6 h-6 text-black  cursor-pointer" />
+          <FiUser className="w-6 h-6 text-black  cursor-pointer" />
         </div>
       </div>
     </header>
