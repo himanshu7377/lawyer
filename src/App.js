@@ -10,7 +10,7 @@ function App() {
       <Header />
       <First />
       <Second />
-      {/* <Third /> */}
+      <Third />
       
     
     </div>

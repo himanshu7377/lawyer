@@ -15,7 +15,7 @@ const MainLayout2 = () => {
         <h1 className="text-xl font-bold text-gray-800">Questions</h1>
         <div className="ml-4">
           <div className="flex space-x-4 mt-2 ">
-            <div className="border text-white px-4 p-2 bg-blue-600 rounded-full">
+            <div className="border text-white px-4 p-2 bg-gradient-to-r from-blue-400 to-blue-800 rounded-full">
               <p>By Petitioner</p>
             </div>
             <div className="border text-gray-500 font-semibold px-4 p-2  rounded-full">
